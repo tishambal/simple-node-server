@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Forms 1</title>
+    </head>
+    <body>
+        <forms>
+            <label> Username: <input type="text" name="username"></label>
+            <label> Password: <input type="password" name="password" required></label>
+        <p>
+            Status:
+            <label><input type="radio" name="status" value="single"> Single </label>
+            <label><input type="radio" name="status" value="married"> Married </label>
+        </p>
+        <p>
+            CMSC Subjects:
+            <label><input type="checkbox" name="subject" value="cmsc2" > CMSC 2 </label>
+            <label><input type="checkbox" name="subject" value="cmsc11" > CMSC 11 </label>
+            <label><input type="checkbox" name="subject" value="cmsc56" > CMSC 56 </label>
+        </p>
+        <p>
+            <label> Birthday: <input type="date" name="bday"></label>
+        </p>
+        <p>
+            <label>
+            Course:
+                <select name="course">
+                <option value="cmsc">BSCS</option>
+                <option value="devcom">BSDC</option>
+                <option value="comarts">BACA</option>
+                <option value="nutri">BSN</option>
+                <option value="others">Others</option>
+                </select>
+            </label>
+        </p>
+        <p>
+            <label> Motto in life: <br><textarea rows="10" cols="50">Type something here..</textarea></label>
+        </p>
+        <p>
+            <fieldset>
+                <legend>Account Details</legend>
+                <label> Username: <input type="text" name="username"></label> <br>
+                <label> Password: <input type="password" name="password" required></label>
+            </fieldset>
+        </p>
+        <p>
+            <button type="submit">Submit</button>
+        </p>
+        </forms>
+    </body>
+</html>
