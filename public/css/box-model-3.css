@@ -1,0 +1,160 @@
+body {
+    font-family:Arial;
+
+}
+
+.whole {
+	background-color: #cbe5ff;
+    width: 900px;
+    height: 1100px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 40px;
+}
+
+.header {
+	width: 900pX;
+	height; 400px;
+	position: absolute;
+	top: 70px;
+	left: 40px;
+	z-index: 1;
+}
+
+.preview {
+	width: 750px;
+	height: 360px;
+	background-color: #84befe;
+	position: relative;
+	top: -200px;
+	left: 280px;
+	z-index: 2;
+}
+
+.box {
+	height:200px;
+	width:200px;
+	background-color: white;
+	position: relative;
+	top:40px;
+	left:150px;
+	z-index: 3;
+}
+
+.mid {
+	height:370px;
+	width:900px;
+	background-color: white;
+	position: relative;
+	left: -10px;
+	top: 350px;
+	z-index: 4;
+}
+
+.nav a {	
+	float:left;
+	width:175px;
+	padding-top: 10px;
+	height: 30px;
+	text-decoration: none;
+	color: white;
+	background-color: #84befe;
+	border-right: 2px solid white;
+	text-align: center;
+	position: relative;
+	left: -10px;
+	top: 350px;
+	z-index: 5;
+}
+
+.nav a:hover {
+	background-color:white;
+}
+
+.rect a{
+    float:right;
+    font-size:28px;
+	width:55px;
+	height: 150px;
+	text-decoration:none;
+	color:#84befe;
+	background-color:white;
+	border-style:dashed;
+	border-color:#84befe;
+	text-align:center;
+	position: fixed;
+	right: -5px;
+	top:200px;
+	z-index:11;
+	padding:10px;
+}
+
+.last {
+    height:300px;
+    width:900px;
+    background-color:white;
+    position:relative;
+    top:360px;
+    left:-10px;
+    z-index:6;
+}
+
+.left {
+    float:left;
+    width:430px;
+    height:283px;
+    background-color:white;
+    position:relative;
+    top:5px;
+    left:5px;
+    z-index:7;
+    border-style:dashed;
+    border-width:4px;
+    border-color:#cbe5ff;
+}
+
+.right {
+    float:left;
+    width:430px;
+    height:283px;
+    background-color:white;
+    position:relative;
+    top:5px;
+    left:20px;
+    z-index:8;
+    border-style:dashed;
+    border-width:4px;
+    border-color:#cbe5ff;
+}
+
+.left-head {
+    float:left;
+    width:421px;
+    height:60px;
+    background-color:#84befe;
+    position: relative;
+    top:5px;
+    left:4px;
+    z-index:9;
+}
+.right-head {
+    float:left;
+    width:421px;
+    height:60px;
+    background-color:#84befe;
+    position: relative;
+    top:5px;
+    left:4px;
+    z-index:9;
+}
+.footer {
+    float:right;
+    position: relative;
+    top:435px;
+    right:15px;
+    z-index:10;
+    color:#84befe;
+}
+
+			
+			

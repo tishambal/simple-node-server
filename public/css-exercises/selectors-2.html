@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CMSC 2 CSS Exercise</title>
+        <style>
+
+            body {
+                font-family:Arial;
+                margin-left:100px;
+                margin-right:100px;
+            }
+            p {
+                text-align: justify;
+                text-indent: 20px;
+            }
+            
+            img {
+                float: right;
+                width: 500px;
+                height: 350px;
+                margin: 20px;
+            }
+            /* unvisited link */
+                a:link {
+                    color: #0099CC ;
+                    text-decoration: none;
+                }
+
+            /* mouse over link */
+                a:hover {
+                     text-decoration: underline;
+                }
+            table {
+                width: 500px;
+            }
+            table, th, td {
+                border: 1px solid black;
+            }
+            tbody tr:nth-child(even) {
+                background: #B2DFEE;
+                color: black;}
+                
+            tbody tr:nth-child(odd) {
+                background: #0099CC; 
+                color: white;}
+            
+            th {text-align: justify;}
+                
+            h1 {text-align: center;}
+            
+            h4 {text-align: center;}
+            
+            #first-p::first-letter {
+                color: #0099CC;
+                font-size: 30px;
+            }
+            
+            #last-p::first-line {
+                font-style: italic;
+            }
+            
+            h1 {
+                text-transform:capitalize;
+                }
+            
+                
+        
+            
+        </style>
+        
+    </head>
+    
+    <body>
+        <div id="main-story">
+            <h1>one of my students made me cry</h1>
+            <h4>By Teacher, Retrieved from <a href="http://www.sunnyskyz.com/feel-good-story/1858/One-of-my-students-made-me-cry#V3dYttjZEaGBdhDg.99" id="main-source">sunnyskyz</a>.</h4>
+
+
+            <img src="http://i.huffpost.com/gen/1423287/images/o-TEACHER-FOR-AMERICA-facebook.jpg" alt="Teacher"/>
+        <p id="first-p">I teach in a brilliant school in the UK - not a private school, but somewhere the kids are almost universally excellent. I realised that something was wrong very quickly with you. You were once a happy, radiant girl. You were top of the school academically, friendly, popular. Even now, in your last year of school, you had dreams of being a doctor.</p>
+
+        <p>But every now and again I'd see your lip quiver in class. It would take you slightly too long to respond to question. Your shoulders were more hunched than your usual confident gait.</p>
+
+        <p>I asked you to stay behind after class. You must have thought you were in trouble.</p>
+
+        <p>We spoke for hours that evening, just you and I, sitting at a pupil desk. I stayed long after I said to my wife I'd be home, holding your hand, just listening. We spoke about everything. TV. Sports. How my favourite chocolate bar was a Wispa, but you thought they were too bubbly. We spoke about a condition. A condition I know very little about, but one I've since read almost everything Google has to say about it. Russell's sign. Ever so slight tooth decay. Weight loss. Low self esteem. Suicidal thoughts. You didn't want your parents to know.</p>
+
+        <p>We managed to get you therapy. Every two weeks you'd attend a class, and I'd be the first person you'd report back to. Trying food diaries. Replacing your bad thoughts with positive ones.</p>
+
+        <p>You got better. It took 6 months. Tears, rages, you swore at me more times than I can count, several times I kept you in my class after hours because I knew if I let you go home you'd do something stupid.</p>
+
+        <p>But damn it, you got better.</p>
+
+        <p>Two days ago I came to your Leavers Prom. You looked gorgeous, healthy, radiant. I've never seen a student smile so wide and so often. You asked me to dance - I felt you squeeze my hand as we twirled to the music.</p>
+
+        <p>Yesterday was your Leavers Day. You came in to my class for the last time, on your own, clutching your accepted offer to university. I told you I was proud of you. I am so damn proud of you.</p>
+
+        <p>I outstretched my hand and wished you the best of luck. You pushed it out the way and came in for a hug. I don't know how long it lasted, but these hugs are ones you don't put a time limit on.</p>
+
+        <p>Just as you were about to leave you said you had a gift for me, to say thanks for the support. Some of my students have given me expensive gifts over the years - champagne, whisky, luxury food baskets and the like.</p>
+
+        <p>You handed me a single Wispa chocolate bar. I have no shame in saying I broke down and cried in front of you. I broke about a thousand school rules by squeezing your hand, kissing you on the cheek and saying thank you. It's the best present I've ever received.</p>
+
+        <p id="last-p">Good luck kid. Go be the best damn doctor you can be.</p>
+    </div>
+
+    <hr/>
+
+    <div id="other-stories">
+        <h3>Other Inspiring Stories</h3>
+        <table>
+            <tr class="even">
+                <th>Title</th>
+                <th>Author</th>
+            </tr>
+            <tr class="odd">
+                <td>Why To Love God</td>
+                <td>Sonia Kaur</td>
+            </tr>
+            <tr class="even">
+                <td>The Starfish</td>
+                <td>Cris</td>
+            </tr>
+            <tr class="odd">
+                <td>Second Chances</td>
+                <td>Joseph J. Mazzella</td>
+            </tr>
+            <tr class="even">
+                <td>Be The Candle</td>
+                <td>Bob Dailey</td>
+            </tr>
+        </table>
+    </div>
+
+<hr/>
+
+    <div id="questions">
+        <h3>Application Questions</h3>
+        <ol>
+            <li>What have you learned from the story?</li>
+            <li>What can you do to appreciate the people who continuously supports you?</li>
+        </ol>
+    </div>
+    </body>
+</html>

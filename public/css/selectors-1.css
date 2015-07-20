@@ -1,0 +1,72 @@
+
+h1 {color: blue; text-align: center}
+
+fieldset {
+    background-color: gray; /* Sets the background color of the element */
+    padding: 3px; /* Adjusts the top, right, bottom and left padding of the element */
+    margin: 3px; /* Adjusts the top, right, bottom and left margin of the element */
+    width: 100px;
+    margin: 0px auto; /* Sets the top and bottom margin to 0px and the left and right margin are automatically calculated */
+}
+
+input {
+    font-family: "Courier Sans"; /* Sets the font of the element */
+    font-size: 20px; /* Sets the font size of the element */
+}
+
+#text {
+    font-weight: bold; /* Sets the thickness of characters in a text (normal, bold or a constant value) */
+    font-family: "Times New Roman", Georgia, Serif;
+    color: #ff69b4; /* Sets the color of the text (color name, hex value or rgb value)*/
+    text-decoration: underline; /* Sets the decoration added to text (overline, line-through or underline) */
+    text-align: justify; /* Sets the horizontal alignment of text in an element (center, left or right) */
+}
+
+#colors {
+    list-style-type: square; /* Specifies the type of list-item marker in a list (square, circle or disc) */
+}
+
+#green-colors {
+    list-style-type: upper-roman; /* (upper-roman lower-roman, lower-alpha or upper-alpha) */
+}
+
+img {
+    width: 80px;    
+    height: 60px;
+    padding: 3px; /* Adjusts the top, right, bottom and left padding of the element */
+    margin: 3px; /* Adjusts the top, right, bottom and left margin of the element */
+}
+
+p.text {
+    font-style: italic; /* Specifies the font style for a text (normal, italic or oblique) */
+    text-indent: 50px; /* Specifies the indentation of the first line in a text-block */
+    text-transform: uppercase; /* Sets the capitalization of text (uppercase, lowercase or capitalize) */
+    border: 5px solid black; /* Sets the border of the element (line, style and color) */
+    vertical-align: middle; /* Sets the vertical alignment of an element (top, middle or bottom) */
+}
+
+/* if link is not yet visited */
+    a:link {
+        color: #FF0000;
+        text-decoration: none;
+    }
+
+/* if link is already visited*/
+    a:visited {
+        color: #00FF00;
+    }
+
+/* if link is hovered (mouse over) */
+    a:hover {
+        color: #FF00FF;
+        text-decoration: underline;
+}
+
+/* if link is clicked */
+    a:active {
+        color: #0000FF;
+}
+
+p::first-line {
+    color: #FF0000;
+}

@@ -1,0 +1,78 @@
+<html>
+    <head>
+    	<title>CMSC 2 Example</title>
+    	<link rel="stylesheet" type="text/css" href="../css/responsive-layout-1.css">
+        	<meta name="author" content="Marie Betel de Robles">
+        	<meta name="description" content="CSS Responsive Layout Tutorial">
+        	<meta name="keywords" content="Responsive, CSS, Tutorial">
+		    <meta name="viewport" content="width=320">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<div class="div1">This is div1.</div>
+			<div class="div2">This is div2.</div>
+			
+            	<!--The first row consists of 1 column occupying 100% of the width-->
+            <div class="row header">
+            	<div class="column column-12">
+            		<h1>Title and Logo</h1>
+            	</div>
+            </div>
+            
+            <!--The second row consists of 2 columns occupying 25% and 75% of the width, respectively-->
+            <div class="row menu">
+            	<div class="column column-3">
+            		<ul>
+            			<li>Menu 1</li>
+            			<li>Menu 2</li>
+            			<li>Menu 3</li>
+            			<li>Menu 4</li>
+            		</ul>
+            	</div>
+            	<div class="column column-9 main-content">
+            		<h2>Menu 1</h2>
+            		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            		<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            	</div>
+            </div>
+            
+        <p class="resize">
+	        TRY TO RESIZE YOUR WINDOW!
+        </p>
+        
+        <!--When the browser is between 0px and 640px wide, max-640px.css will be applied.-->
+        <link rel="stylesheet" media="(max-width: 640px)" href="max-640px.css">
+        <!--When the browser is 640px or wider, min-640px.css will be applied.-->
+        <link rel="stylesheet" media="(min-width: 640px)" href="min-640px.css">
+        <!--When the browser height is greater than the width, portrait.css will be applied.-->
+        <link rel="stylesheet" media="(orientation: portrait)" href="portrait.css">
+        <!--When the browser width is greater than the height, landscape.css will be applied.-->
+        <link rel="stylesheet" media="(orientation: landscape)" href="landscape.css">
+			
+		<div class="row header">
+        	<!--This column occupies 100% of width when viewed in desktop and tablet-->
+        	<div class="column column-12 column-m-12">
+        		<h1>Title and Logo</h1>
+        	</div>
+        </div>
+        
+        <div class="row menu">
+        	<!--This column occupies 25% of width when viewed in desktop and while 100% in tablet-->
+        	<div class="column column-3 column-m-12">
+        		<ul>
+        			<li>Menu 1</li>
+        			<li>Menu 2</li>
+        			<li>Menu 3</li>
+        			<li>Menu 4</li>
+        		</ul>
+        	</div>
+        	<!--This column occupies 75% of width when viewed in desktop and while 100% in tablet-->
+        	<div class="column column-9 column-m-12 main-content">
+        		<h2>Menu 1</h2>
+        		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        		<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        	</div>
+        </div>
+        			
+			
+            				
+    </head>
+</html>

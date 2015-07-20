@@ -1,0 +1,20 @@
+p{
+	background-color: lightblue;
+	width: 200px;
+
+	margin: 10px 20px 30px 40px;
+	/*first value for top, second for right, third for bottom and fourth for left*/
+}
+
+.cent {
+	margin: auto;
+	background: lightblue;
+	width: 66%;
+}
+.uncent {
+	margin: 20px;
+	background: lightblue;
+	width: 66%;
+}
+			
+			

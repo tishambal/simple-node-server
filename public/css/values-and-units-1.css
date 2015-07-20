@@ -1,0 +1,52 @@
+p {
+    margin: 0px auto;/* this declaration makes the element center-aligned */
+    border: 1px solid black;
+    width: 30%;
+    font-size: 3em;
+    text-indent: 20px;
+}
+
+    
+}
+
+#main {
+    font-size: 14px;
+}
+
+#main div {/* Applies to all div tags inside the tag with the id main */
+    font-size: 1.2em;
+}
+
+.sup {
+    position: relative;
+    bottom: 1ex;
+}
+.sub {
+    position: relative;
+    bottom: -1ex;
+}
+
+h1 {
+    margin: 0.5in; 
+    
+} /* inches  */
+h2 { 
+    line-height: 3cm; 
+    
+} /* centimeters */
+h3 { 
+    word-spacing: 4mm; 
+    
+} /* millimeters */
+h4 {
+    font-size: 12pt; 
+    
+} /* points */
+h5 { 
+    font-size: 1pc; 
+    
+} /* picas */
+h6 { 
+    font-size: 12px; 
+    
+} /* px */
