@@ -1,0 +1,3 @@
+document.getElementById("title").innerHTML = "Overview"
+document.getElementById("blogp1").innerHTML = "Before the dawn of Google, Yahoo, Tumblr, Facebook and all other sites, the Internet was not as user-friendly and as useful in general. It was a platform that only programmers and computers experts knew how to navigate. Back then, even if it was inefficient, it was in its own way useful. However, with the advancement of technology the Internet can be enjoyed by everyone who as acess to it. So now, we are able to stream videos, talk to relatives abroad with free of charge, share photos and files, and find partners online."
+document.getElementById("blogp2").innerHTML = "If you want to learn more, click on the Topics menu above and start reading!"

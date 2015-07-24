@@ -16,7 +16,7 @@
 		.whole {
 			background-color:#DDA0DD ;
 		    width: 900px;
-		    height: 1200px;
+		    height: 3300px;
 		    position: absolute;
 		    top: 10px;
 		    left: 350px;
@@ -155,7 +155,7 @@
         }
 		
 		.mid {
-			height:800px;
+			height:2900px;
 			width:880px;
 			background-color: white;
 			position: relative;
@@ -163,15 +163,15 @@
 			top: 350px;
 			padding-left: 20px;
 		    padding-right: 20px;
-		    text-align: center;
+		    text-align: justify;
 		    font-family: Georgia;
-		    font-size: 30px;
+		    font-size: 20px;
 			z-index: 4;
 		}
 		
 		.footer {
 		    position: relative;
-		    top:400px;
+		    top:100px;
 		    right:15px;
 		    z-index:10;
 		    color:black;
@@ -228,12 +228,50 @@
 				<div class="mid">
 				<br>
 				    <h2>Eary Protocols</h2>
+				    <img src="c1.jpg" height="400px" width="800px">
+				    <h4>How TCP/IP Works</h4>
+				    <p>The “Transmission Control Protocol / Internet Protocol” or the TCP/IP is essentially a network protocol that defines the details of how data is sent and received through network adapters, hubs, switches, routers and other network communications hardware. It was initially developed the by the US defense department to connect to the systems in the government in a safe way. Eventually, it was opened to research institutions and then the general public to create what is now the Internet. The TCP/IP protocol was also placed in the public domain so that any software company could develop networking software based on the protocol. It is considered as the most popular protocol throughout the world because it is the primary protocol used and it is in the public domain. </p>
+				    <p>The TCP/IP protocol is designed such that each computer or device in a network has a unique "IP Address" (Internet Protocol Address) which uniquely identifies the computer or device on the network and a "Port Number" identifies a specific connection between one computer or device and another. A TCP/IP "port" is the number used to identify a unique connection between two devices. </p>
+					<p>TCP/IP connections work in a manner where upon clicking the link, it will lead to a flow of information that will travel to a “mail room” where the IP addresses are packaged, labeled, ad send to the receiver’s end. It is also in this “mail room” where the info for the packets are divided. These packages are then delivered to internet with a special address for a proxy server. Once the packet is launched, it will go the Local Area Network (LAN). The LAN is where all local computers, printers, and devices are connected for information exchange within the physical walls. It should be known that sometimes, “accidents” happen such that the packages are not successfully sent due to the fact that the “highway” of the LAN are packed with a lot of information such as IP packets, novel packets, and Appleton packets that go against the traffic. Eventually, the local router will read the address of those packets that were able to come through, and if necessary packet to another network called the router. </p>
+					<p>The router at most parts are accurate in delivering the packets. After which, when the packets leave the router they move on to the corporate net then to the router switch. Eventually, the packets will arrive at its destination and will be picked up by the network interphase and sent to the next level which is the proxy. The proxy acts as the “middle man” in which it lessens the load and provides security. It opens packets, looks for the web address or the URL. The packets are sent to the internet if the URL is acceptable, which means that there are also packets that do not fit the proxy through the corporate or the management guidelines. </p>
+					<p>This is where the firewalls will come in handy. The firewall has to main purposes: 1) it prevents nasty things to get in to the intranet and 2) it prevents sensitive corporate information from being sent out to the internet. </p>
+					<br>
+					<h4>UDP and TCP</h4>
+					<ul>
+						<li>Application Layer</li>
+						<li>Tranpsort Layer</li>
+						<li>Network layer</li>
+						<li>Link Layer</li>
+						<li>Physical Layer</li>
+					</ul>
+					<p>The purpose of the transport layer is to use multiple applications simultaneously with one network. The User Datagram Protocol or the (UDP) are lightweight and connectionless. The packets are 60% smaller and it gains more control when the data are sent out. However, the UDP are considered to have primitive error detection abilities and it provides no error recovery. Whenever it detects corruption, it just discards it instead of recovering. Moreover, it has no compensation for lost packets and packets can arrive out of order with no congestion control. Essentially, UDP is not reliable.</p>
+					<p>The Transmission Control Protocol (TCP) on the other hand are reliable and connection-based. In setting up the connection, it has to perform the 3-way-handshake (syn, ack, syn ack). TCP has delivery acknowledgements and it has retransmission wherein it can send packets again. More importantly, the packets are sent in order and it has effective congestion control and error detection. However, TCP needs bigger headers and bigger overhead which is a result of retransmission of packets and acknowledgement of packets. </p>
+					<p>In synthesis the UDP is more message oriented while the TCP is more stream-oriented, and more preferred for text communication. </p>
+					<br>
+					<h4>HTTP and FTP</h4>
+					<p>Hypertext Markup Language (HTML) are used to construct web pages An HTML page is transmitted over the Web in a standard way and format known as Hypertext Transfer Protocol (HTTP). "Hypertext Transfer Protocol over Secure Socket Layer" (HTTPS), is also a protocol but provides security for sensitive data. </p>
+					<p>File Transfer Protocol (FTP) provides a method for copying files over a network from one computer to another. It is an old protocol and is used less than it was before the World Wide Web came along however, it is still used at present. Its primary use is uploading files to a web site. </p>
+					<br>
+					<h4>POP3 and SMTP</h4>
+					<p>The most common protocol for sending mail is Simple Mail Transfer Protocol (SMTP). An Internet address for an SMTP server must be entered When configuring email clients. The most common protocol used by PCs for receiving mail is Post Office Protocol version 3 (POP3). In this protocol, email clients require an address for a POP3 server before they can read mail. </p>
+					<p>A more powerful protocol for reading mail is Interactive Mail Access Protocol (IMAP). Which will be further discussed in the Email topic. </p>
+					
+					<!--source: youtube: how tcp/ip works->
+
+
+
+
+
+
+
+						
+				
 				</div>
 				
 				
 			</div>
 			
-			<!--The footer text-->
+			<!--The footer text-->The bandwidth on the other hand is a much narrower path in which the packet will have to pass. Not all packets can make it this far such that it requires some replacement packets. After this stage, the packets will proceed to the Internet and then encounter another firewall that will only allow those packets that meet the criteria to go through. Usually, ports 80 (entrance of packets) and 25 (mail packets) are closed for business. The packets will proceed to the webserver where it will be read, opened, and unpacked. 
 			<div class="footer">CMSC2 Midyear 2015 by Tisha-an Ambal</div>
 		</div>
 	</body>
